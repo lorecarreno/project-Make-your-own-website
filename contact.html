@@ -6,8 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="/https://raw.githubusercontent.com/lorecarreno/project-Make-your-own-website/main/img/favicon.ico" type="image/x-icon">    
-    <link rel="icon" href="https://raw.githubusercontent.com/lorecarreno/project-Make-your-own-website/main/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="/https://raw.githubusercontent.com/lorecarreno/project-Make-your-own-website/main/img/favicon.ico"
+        type="image/x-icon">
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/lorecarreno/project-Make-your-own-website/main/img/favicon.ico"
+        type="image/x-icon">
 
     <title>Contact</title>
     <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
@@ -27,45 +31,40 @@
     </header>
 
     <main>
-        <!-- contact section start -->
+        <!-- contact form -->
         <section class="contact">
-            <div class="max-width">
-                <h2 class="title">Send me a message!</h2>
-                <div class="contact-content">
-                    <div class="column left">
 
-                        <p>I'll reply as soon as possible.</p>
+            <h2>Send me a message!</h2>
+            <p>I'll reply as soon as possible.</p>
 
-                        <div class="column right">
-                            <div class="text">Message me</div>
-                            <form action="https://formspree.io/f/xoqbgyzk" method="POST">
-                                <div class="fields">
-                                    <div class="field name">
-                                        <input type="text" placeholder="Name:" name="name" required>
-                                    </div>
-                                    <div class="field email">
-                                        <input type="email" class="form__input" placeholder="Email:" name="_replyto"
-                                            required>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <input type="text" placeholder="Subject:" required>
-                                </div>
-                                <div class="field textarea">
-                                    <textarea name="message" cols="30" rows="10" placeholder="Message.."
-                                        required></textarea>
-                                </div>
-                                <div class="button-area">
-                                    <button type="submit">Send message</button>
-                                </div>
-                            </form>
-                        </div>
+
+            Message me
+            <form action="https://formspree.io/f/xoqbgyzk" method="POST">
+                
+                    <div class="field name">
+                        <input type="text" placeholder="Name:" name="name" required>
                     </div>
+                    
+                    <input type="email" class="form__input" placeholder="Email:" name="_replyto" required>
+                    
+                
+
+                <div class="field">
+                    <input type="text" placeholder="Subject:" required>
                 </div>
+
+                <div class="field textarea">
+                    <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
+                </div>
+
+                <button type="submit">Send message</button>
+
+            </form>
+            </div>
+
         </section>
 
-        <!-- social media start -->
-        
+
     </main>
     <footer>
         <p>Made by Lorena Carreno for <a href="https://apply.holbertonschool.com" target="_blank">Holberton School</a>.
