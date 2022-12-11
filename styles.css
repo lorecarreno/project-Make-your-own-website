@@ -31,3 +31,13 @@ aside {
 a {
     text-decoration: none;
 }
+
+.rounded-image {
+            border-radius: 5%;
+        }
+
+
+.button-with-image {
+    display: flex;
+        justify-content: center;
+}
