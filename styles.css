@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+h1, h2, h3{
+    color: #E11C3E;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article,
+aside {
+    overflow-y: auto;
+}
+
+article {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+}
