@@ -2,7 +2,10 @@ body {
     display: flex;
     flex-direction: column;
 }
-h1, h2, h3{
+
+h1,
+h2,
+h3 {
     color: #E11C3E;
 }
 
